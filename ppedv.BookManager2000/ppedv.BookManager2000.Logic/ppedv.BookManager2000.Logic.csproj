@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.BookManager2000.Data.EF\ppedv.BookManager2000.Data.EF.csproj" />
+    <ProjectReference Include="..\ppedv.BookManager2000.Model\ppedv.BookManager2000.Model.csproj" />
+  </ItemGroup>
+
+</Project>
