@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BookManager2000.Data.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BookManager2000.Logic", "ppedv.BookManager2000.Logic\ppedv.BookManager2000.Logic.csproj", "{84EC1C43-0371-42FF-A6AB-846DC0B14DB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BookManager2000.UI.DevConsole", "ppedv.BookManager2000.UI.DevConsole\ppedv.BookManager2000.UI.DevConsole.csproj", "{3DB48AEB-B0F7-449A-8D67-16C81B2BACEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BookManager2000.UI.WPF", "ppedv.BookManager2000.UI.WPF\ppedv.BookManager2000.UI.WPF.csproj", "{6474AE47-42C2-435A-A740-5C75481FD34F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{84EC1C43-0371-42FF-A6AB-846DC0B14DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84EC1C43-0371-42FF-A6AB-846DC0B14DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84EC1C43-0371-42FF-A6AB-846DC0B14DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB48AEB-B0F7-449A-8D67-16C81B2BACEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB48AEB-B0F7-449A-8D67-16C81B2BACEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB48AEB-B0F7-449A-8D67-16C81B2BACEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB48AEB-B0F7-449A-8D67-16C81B2BACEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6474AE47-42C2-435A-A740-5C75481FD34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6474AE47-42C2-435A-A740-5C75481FD34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6474AE47-42C2-435A-A740-5C75481FD34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6474AE47-42C2-435A-A740-5C75481FD34F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

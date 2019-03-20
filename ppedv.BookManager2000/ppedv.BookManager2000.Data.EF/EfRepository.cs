@@ -10,7 +10,7 @@ namespace ppedv.BookManager2000.Data.EF
 {
     public class EfRepository : IRepository
     {
-        private EfContext context;
+        private EfContext context = new EfContext();
 
         public void Add<T>(T entity) where T : Entity
         {
