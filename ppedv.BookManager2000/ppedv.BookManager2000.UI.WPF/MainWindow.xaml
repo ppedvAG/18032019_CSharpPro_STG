@@ -1,10 +1,11 @@
-﻿<Window x:Class="ppedv.BookManager2000.UI.WPF.MainWindow"
+﻿<con:MetroWindow x:Class="ppedv.BookManager2000.UI.WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ppedv.BookManager2000.UI.WPF"
         xmlns:vm="clr-namespace:ppedv.BookManager2000.UI.WPF.View"
+        xmlns:con="http://metro.mahapps.com/winfx/xaml/controls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="600">
     <DockPanel>
@@ -16,7 +17,7 @@
                 <MenuItem Header="Öffen"/>
             </MenuItem>
         </Menu>
-        <StatusBar DockPanel.Dock="Bottom" Height="22" Background="Lime"/>
+        <StatusBar DockPanel.Dock="Bottom" Height="22" Background="{StaticResource AccentColorBrush}"/>
         <TabControl>
             <TabItem Header="Bücher">
                 <vm:BooksView/>
@@ -26,4 +27,4 @@
             </TabItem>
         </TabControl>
     </DockPanel>
-</Window>
+</con:MetroWindow>
